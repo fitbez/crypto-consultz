@@ -1,3 +1,12 @@
 #pageHeader{
 	background-color: #2a353d;
+	margin: 0;
+	border-radius: 0;
+}
+
+.footer {
+	background-color: #2a353d;
+	color: #fff;
+	border-radius: 0;
+	margin-bottom: : 0px;
 }
