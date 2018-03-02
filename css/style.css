@@ -1,13 +1,24 @@
-*{
-  margin: 0;
+/*Navbar*/
+.container-fluid{
+	background-color: #2a353d;
 }
 
+..nav.navbar-nav>li>a {
+     color: #fff !important; 
+ }
+#logo{
+	margin: 0%;	
+	padding-top: 1.5%;
+}
 
 img {
-	margin bottom: 5px;
-	height: 35px;
-	width: 33px;
+	height: 40px;
+	width: 37px;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 1%;
 }
+/*End Navbar*/
 
 .footer {
 	background-color: #2a353d;
