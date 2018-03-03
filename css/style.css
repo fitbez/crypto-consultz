@@ -1,6 +1,11 @@
 /*Navbar*/
+.navbar .navbar-default{
+	position: fixed;
+}
 .container-fluid{
 	background-color: #2a353d;
+	position: fixed;
+	width: 100%
 }
 
 .navbar>.container-fluid .navbar-brand {
