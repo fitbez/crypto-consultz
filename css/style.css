@@ -42,9 +42,9 @@ img {
 	color: #fff;
 	border-radius: 0;
 	margin-bottom: 0px;
-  	margin-top: 30px;
-  	height: 50px;
-  	font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 } */
@@ -58,7 +58,7 @@ img {
 	display: block;
 }
 .footer {
-	background: #EDEFF1;
+	background: #2a353d;
 	height: auto;
 	padding-bottom: 30px;
 	position: relative;
@@ -94,7 +94,7 @@ img {
 	display: block;
 }
 .footer a {
-	color: #78828D
+	color: #fff
 }
 .supportLi h4 {
 	font-size: 20px;
@@ -160,7 +160,7 @@ img {
 	-o-transform: scale(1.1) rotate(360deg);
 }
 .social li a {
-	color: #EDEFF1;
+	color: red;
 }
 .social li:hover {
 	border: 2px solid #2c3e50;
@@ -169,7 +169,7 @@ img {
 .social li a i {
 	font-size: 16px;
 	margin: 0 0 0 5px;
-	color: #EDEFF1 !important;
+	color: red !important;
 }
 .footer-bottom {
 	background: #E3E3E3;
