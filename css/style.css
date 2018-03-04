@@ -65,6 +65,7 @@ img {
 	clear: both;
 	display: block;
 }
+
 .footer {
 	background: #2a353d;
 	height: auto;
@@ -140,9 +141,9 @@ img {
 	box-shadow: 0 1px 0 #B4B3B3;
 }
 
+/* Social network icons div*/
 .col-lg-3.col-md-3.col-sm-6.col-xs-12 {
 	float: right;
-
 }
 
 .social li {
