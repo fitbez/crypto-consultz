@@ -1,14 +1,17 @@
 /*Navbar*/
 .navbar .navbar-default{
 	position: fixed;
+	margin: 0;
+	padding: 0;
 }
+
 .container-fluid{
 	background-color: #2a353d;
 	position: fixed;
 	width: 100%
 }
 
-.navbar>.container-fluid .navbar-brand {
+.navbar.container-fluid .navbar-brand {
 	font-size: 23px;
 }
 
@@ -136,6 +139,12 @@ img {
 	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
 	box-shadow: 0 1px 0 #B4B3B3;
 }
+
+.col-lg-3.col-md-3.col-sm-6.col-xs-12 {
+	float: right;
+
+}
+
 .social li {
 	background: none repeat scroll 0 0 #B5B5B5;
 	border: 2px solid #B5B5B5;
@@ -190,4 +199,25 @@ img {
 }
 .fa:hover{
     color: #e13d3a;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.pull-center {
+    text-align: center !important;
+}
+
+.footer-bottom p.pull-center {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    text-align: center !important;
+    font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
