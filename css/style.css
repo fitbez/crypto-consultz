@@ -82,13 +82,14 @@ img {
 	max-width: 100%;
 }
 .footer h3 {
-	border-bottom: 1px solid #BAC1C8;
+	/*border-bottom: 1px solid #BAC1C8;*/
 	color: #54697E;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 27px;
-	padding: 40px 0 10px;
-	text-transform: uppercase;
+	padding: 10px 0 15px;
+	margin-top: 1px;
+	/*text-transform: uppercase;*/
 }
 .footer ul {
 	font-size: 13px;
@@ -104,6 +105,15 @@ img {
 }
 .footer a {
 	color: #fff
+}
+.phone{
+	float:left;
+	color:wheat;
+	margin-left: 0;
+}
+.phone-icon{
+	float:left;
+	margin-left: 0;
 }
 .supportLi h4 {
 	font-size: 20px;

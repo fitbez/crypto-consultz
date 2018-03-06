@@ -23,7 +23,7 @@
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       <!-- favicon -->
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="fevicon.png" type="image/x-icon">
       <!-- <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/> -->
 
     </head>
@@ -66,7 +66,7 @@
                     <li><a href="#" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></a></li>
                     <li class="dropdown">
                       <a href="#" class="glyphicon glyphicon-user" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-                      <ul class="dropdown-menu">
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
                         <li><a href="#">Login</a></li>
                         <li><a href="#">Logout</a></li>
                         <li role="separator" class="divider"></li>
@@ -93,7 +93,7 @@
         <div class="container">
             <h1 class="heading">Contact <span>Us</span></h1>
 			<div class="row">
-                <div class="col-sm-6">
+                <!-- <div class="col-sm-6">
                     <div class="item">
                         <i class="fa fa-phone"></i>
                         <p>(+1xxx)xxx-xxxx</p>
@@ -110,7 +110,7 @@
                         <i class="fa fa-map-marker"></i>
                         <p>Adress</p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-md-offset-2 col-md-8 col-sm-12">
@@ -147,19 +147,32 @@
   <footer>
     <div class="footer" id="footer">
         <div class="container">
+          <div class="row">
+            <div class="col-lg-3  col-md-2 col-sm-12 col-xs-6">
+                <h3> CryptoConsultz, LLC </h3>
+            </div> 
+            <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <ul class="social">
+                        <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-instagram">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
+                </div>  
+          </div>
             <div class="row">
-                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Telephone </h3>
-                    <ul>
-                        <li> <a href="#">+1 (360)-601-8800</a> </li>
-                    </ul>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                    <div class="pnone-icon">
+                        <li> <a href="#"> <i class="fa fa-phone"></i> </a></li> 
+                    </div>
                 </div>
-                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Email </h3>
-                    <ul>
-                        <li> <a href="#">cryptoconsultz@protonmail.com</a> </li>
-                    </ul>
+                <div class="phone">
+                    +1 (360)-601-8800
                 </div>
+                    <div class="col-lg-3  col-md-2 col-sm-4 col-xs-6">
+                        <li> <a> <i class="fa fa-envelope"> <span> </span> cryptoconsultz@protonmail.com </i> </a> </li>
+                    </div>
                 <!-- <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
                     <h3> Lorem Ipsum </h3>
                     <ul>
@@ -174,15 +187,6 @@
                         <li> <a href="#"> Lorem Ipsum </a> </li>
                     </ul>
                 </div> -->
-                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
-                    <ul class="social">
-                        <li> <a href="#"> <i class="fa fa-facebook">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-instagram">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
-                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
-                    </ul>
-                </div>
             </div>
             <!--/.row-->
         </div>
@@ -206,7 +210,12 @@
     <!--/.footer-bottom-->
 </footer>
     <!-- end footer -->
+
     <!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
 </body>
 </html>
