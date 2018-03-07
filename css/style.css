@@ -1,49 +1,72 @@
 /*Navbar*/
-.navbar .navbar-default{
-	position: fixed;
-	margin: 0;
-	padding: 0;
+.navbar {
+    background-color: #2a353d !important;
+    height: 70px;
 }
 
-.container-fluid{
-	background-color: #2a353d;
-	position: fixed;
-	width: 100%
+a {
+	font-size: 15px;
 }
 
-.navbar.container-fluid .navbar-brand {
-	font-size: 23px;
-}
-
-.navbar-brand {
-	color: #fff !important;
-    font-family: 'Montserrat', sans-serif;
+.navbar-light .navbar-brand{
+	font-size: 27px;
+	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
+	color: #fff !important
 }
 
-.nav.navbar-nav.navbar-left>li>a {
-    color: #fff !important;
-    font-family: 'Montserrat', sans-serif;
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
+	color: #fff !important
 }
 
-.nav.navbar-nav.navbar-right>li>a {
-    color: #fff !important;
+.dropdown-menu {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	width: bold;
+	min-width: 1rem !important
 }
 
-#logo {
-	margin: 0%;
-	padding-top: 1.5%;
-}
-
-img {
-	height: 40px;
-	width: 37px;
-	margin-top: 5%;
-	margin-left: 3%;
-	margin-right: 1%;
-}
+.dropdown-item {
+	font-size: 12px;
+	padding-top: 2%
+	margin-bottom: 1.1rem 0 0;
+	padding: .12rem 1.0rem;
+	width: 70%;
+	font-weight: 200;
+}	
 /*End Navbar*/
+
+/*Jumbo*/
+.jumbotron {
+	text-align-last: center;
+    
+}
+/*.jumbotron-fluid*/ .container{
+	height: 430px;
+	background-size: cover;
+}
+
+h1 {
+	font-weight: 100 !important
+}
+
+.display-4 {
+	font-size: 9.5rem !important
+	font-weight: 100 !important	
+}
+
+.lead {
+    font-size: 4.2rem !important
+    font-weight: 200 !important
+    padding: 4%;
+}
+
+p {
+    margin-top: -21px !important
+    margin-bottom: 1rem !important
+}
 
 /* .footer {
 	background-color: #2a353d;

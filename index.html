@@ -14,17 +14,16 @@
 
       <!-- Latest compiled and minified CSS -->
       <!-- Bootstrap -->
-      <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
       <!-- Navbar font -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300" rel="stylesheet">
 
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
       <!-- favicon -->
       <link rel="shortcut icon" href="fevicon.png" type="image/x-icon">
-      <!-- <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png"/> -->
 
     </head>
     <body>
@@ -37,53 +36,61 @@
       </div>
 
     <!-- start Navbar -->
-           <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <a class="navbar-brand" href="#">
+                <img src="./css/Images/logo.png" width="46" height=50 class="d-inline-block align-top" >
+                 <span class="navbar-brand mb-0 h1">Cryptoconsultz</span>
+                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                    <a id="logo" class="navbar-brand" href="#">
-                    <img src="./css/Images/logo.png">
-                    <a class="navbar-brand" href="#">CryptoConsultz</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">packages & pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                        <!-- Left side -->
+                        <a class="nav-link" href="#" >Cart</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              User
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Login</a>
+                              <a class="dropdown-item" href="#">Logout</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Sign Up</a>
+                            </div>
+                        </div>
+
+      
                 </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">packages & pricing</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-
-                <!-- Right Side -->
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></a></li>
-                    <li class="dropdown">
-                      <a href="#" class="glyphicon glyphicon-user" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Logout</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Sign Up</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
             </nav>
     <!-- end Navbar -->
 
     <!-- jumbotron-fluid start here -->
             <div class="jumbotron jumbotron-fluid">
+                <video>
+  <source src="https://youtu.be/iGpuQ0ioPrM" type="video/mp4">
+  
+Your browser does not support the video tag.
+</video>
                 <div class="container">
-                    <h1 class="display-4">Fluid jumbotron</h1>
-                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    <h1 class="display-4">CryptoConsultz</h1>
+                    <p class="lead">Digital Currency Investing Consulting</p>
                 </div>
             </div>
     <!-- end jumbotron-fluid -->
@@ -215,7 +222,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
 </body>
 </html>
