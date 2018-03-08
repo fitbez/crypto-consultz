@@ -1,7 +1,7 @@
 /*Navbar*/
 .navbar {
     background-color: #2a353d !important;
-    height: 70px;
+    height: 10%;
 }
 
 a {
@@ -42,7 +42,7 @@ a {
 /*Jumbo*/
 .jumbotron-fluid {
 	text-align-last: center;
-    max-height: 100%;
+    max-height: 200%;
     width: 100%;
 }
 
@@ -50,9 +50,16 @@ a {
 	font-size: 9.5rem !important
 }
 
+.display-4 {
+	font-weight: 100 !important
+}
+
 .lead {
-	padding: 0;
 	font-size: 4.0rem !important
+}
+
+.lead {
+	font-weight: 200 !important
 }
 /*End Jumbo*/
 /*---------------------------------------------*/
