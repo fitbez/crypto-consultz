@@ -35,11 +35,22 @@ a {
 	padding: .12rem 1.0rem;
 	width: 70%;
 	font-weight: 200;
-}	
+}
 /*End Navbar*/
 /*---------------------------------------------*/
 
 /*Jumbo*/
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../images/crypto.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    /* opacity : 0.4; */
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
 .jumbotron-fluid {
 	text-align-last: center;
     max-height: 200%;
