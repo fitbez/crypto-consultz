@@ -102,49 +102,34 @@ a {
 	padding-top: 2%;
 	position: relative;
 	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
-	border-top: 1px solid #DDDDDD;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .footer p {
 	margin: 0;
+	font-size: 10px;
 }
-.footer img {
-	max-width: 100%;
-}
+
 .footer h3 {
-	/*border-bottom: 1px solid #BAC1C8;*/
-	color: #54697E;
-	font-size: 18px;
-	font-weight: 600;
-	line-height: 27px;
-	padding: 10px 0 15px;
-	margin-top: 1px;
-	/*text-transform: uppercase;*/
+	color: #fff;
+	font-size: 21px;
+	margin-top: 1%;
+	font-weight: bold;
 }
+
 .footer ul {
-	font-size: 13px;
 	list-style-type: none;
-	margin-left: 0;
+	margin-left: 68%;
 	padding-left: 0;
-	margin-top: 15px;
-	color: #7F8C8D;
+	margin-top: 1%;
+	color: #f34213;
 }
-.footer ul li a {
-	padding: 0 0 5px 0;
-	display: block;
-}
+
 .footer a {
-	color: #fff
+	font-size: 15px;
 }
-.phone{
-	float:left;
-	color:wheat;
-	margin-left: 0;
-}
-.phone-icon{
-	float:left;
-	margin-left: 0;
-}
+
 .supportLi h4 {
 	font-size: 20px;
 	font-weight: lighter;
@@ -152,14 +137,7 @@ a {
 	margin-bottom: 0 !important;
 	padding-bottom: 0;
 }
-.newsletter-box input#appendedInputButton {
-	background: #FFFFFF;
-	display: inline-block;
-	float: left;
-	height: 30px;
-	clear: both;
-	width: 100%;
-}
+
 .newsletter-box .btn {
 	border: medium none;
 	-webkit-border-radius: 3px;
