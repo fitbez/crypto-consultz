@@ -53,7 +53,7 @@ a {
     color: white;
     height:100vh;
     /* opacity : 0.4; */
-    text-shadow: black 0.2em 0.2em 0.2em;
+    text-shadow: black 0.2em 0.3em 0.3em;
 }
 
 .jumbotron-fluid {
@@ -84,6 +84,44 @@ div.modal div.modal-backdrop {
     z-index: 0;
 }
 /*About Us*/
+/* About
+*********************/
+.about {
+position: relative;
+overflow-x: hidden !important;
+background-color: #fff; }
+.about .hero {
+  padding-left: 50px; }
+  .about .hero .info {
+    border-bottom: 1px solid #f5f5f5; }
+    .about .hero .info h4 {
+      font-size: 2rem; }
+    .about .hero .info h6 {
+      font-size: 1.2rem;
+      color: #282830;
+      letter-spacing: 1.8px; }
+  .about .hero .data ul {
+    padding: 0; }
+    .about .hero .data ul li {
+      color: #282830;
+      font-size: .9rem;
+      font-weight: 600;
+      margin-bottom: 10px; }
+      .about .hero .data ul li span {
+        color: #676767;
+        padding: 0 .5rem; }
+.about .photo {
+  padding: 0;
+  position: relative;
+  border-radius: 5px; }
+  .about .photo img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 10px solid #f4f5f8; }
+
+/*********************
 
 /*End About Us*/
 /*---------------------------------------------*/
