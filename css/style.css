@@ -8,6 +8,10 @@ a {
 	font-size: 15px;
 }
 
+#icon {
+	font-size: 20px;
+}
+
 .navbar-light .navbar-brand{
 	font-size: 27px;
 	font-family: 'Montserrat', sans-serif;
@@ -106,6 +110,11 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 }
+
+#icon-footer {
+	font-size: 17px;
+}
+
 .footer p {
 	margin: 0;
 	font-size: 10px;
