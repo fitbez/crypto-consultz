@@ -74,7 +74,10 @@ a {
 }
 /*End Jumbo*/
 /*---------------------------------------------*/
-
+/* modal */
+div.modal div.modal-backdrop {
+    z-index: 0;
+}
 /*About Us*/
 
 /*End About Us*/
