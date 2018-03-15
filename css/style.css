@@ -78,28 +78,23 @@ a {
 /*About Us*/
 
 /*End About Us*/
+/*---------------------------------------------*/
 
-/* .footer {
-	background-color: #2a353d;
-	color: #fff;
-	border-radius: 0;
-	margin-bottom: 0px;
-  margin-top: 30px;
-  height: 50px;
-  font-family: 'Montserrat', sans-serif;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-} */
-.full {
-    width: 100%;
-}
-.gap {
-	height: 30px;
-	width: 100%;
-	clear: both;
-	display: block;
-}
+/*Services*/
 
+/*End Services*/
+/*---------------------------------------------*/
+
+/*Packages & Pricing*/
+
+/*End Packages & Pricing*/
+/*---------------------------------------------*/
+
+/*Contact*/
+/*End Contact*/
+/*---------------------------------------------*/
+
+/*Footer*/
 .footer {
 	background: #2a353d;
 	height: auto;
