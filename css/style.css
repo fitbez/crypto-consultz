@@ -4,7 +4,7 @@
     height: 10%;
 }
 
-a {
+a { 
 	font-size: 15px;
 }
 
@@ -22,7 +22,7 @@ a {
 .nav-link {
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
-	color: #fff !important
+	color: #fff !important;
 }
 
 .dropdown-menu {
