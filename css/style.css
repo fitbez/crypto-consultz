@@ -142,9 +142,11 @@ background-color: #fff; }
 	font-family: 'Open Sans', sans-serif;
 }
 
-h2{
+.h2, h2 {
+    font-size: 2.5rem !important;
 	text-align: center;
 	padding-top: 2%;
+	color: #2a353d !important;
 }
 
 /*End Contact*/
