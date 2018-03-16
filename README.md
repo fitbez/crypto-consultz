@@ -1,1 +1,1 @@
-# crypto-consultz
+# CryptoConsultz
