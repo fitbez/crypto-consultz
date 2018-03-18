@@ -95,11 +95,11 @@ div.modal div.modal-backdrop {
 }
 
 .justify-content-center {
-	width: 110%;
+	width: 100%;
 }
 
 .about .hero {
-  padding-left: 5%; }
+  padding-left: 1%; }
   .about .hero .info {
     border-bottom: 1px solid #f5f5f5; }
     .about .hero .info h4 {
