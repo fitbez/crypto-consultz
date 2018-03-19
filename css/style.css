@@ -87,17 +87,25 @@ div.modal div.modal-backdrop {
 /* About
 *********************/
 .about {
-position: relative;
-overflow-x: hidden !important;
-background-color: #fff; }
+	position: relative;
+	overflow-x: hidden !important;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff; 
+}
+
+.justify-content-center {
+	width: 100%;
+}
+
 .about .hero {
-  padding-left: 50px; }
+  padding-left: 1%; }
   .about .hero .info {
     border-bottom: 1px solid #f5f5f5; }
     .about .hero .info h4 {
       font-size: 2rem; }
     .about .hero .info h6 {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: #282830;
       letter-spacing: 1.8px; }
   .about .hero .data ul {
@@ -113,13 +121,13 @@ background-color: #fff; }
 .about .photo {
   padding: 0;
   position: relative;
-  border-radius: 5px; }
+  border-radius: 2px; }
   .about .photo img {
     height: auto;
     max-width: 100%;
-    vertical-align: middle;
+    vertical-align: left;
     border-radius: 5px;
-    border: 10px solid #f4f5f8; }
+    border: 2px solid #f4f5f8; }
 
 /*********************
 
