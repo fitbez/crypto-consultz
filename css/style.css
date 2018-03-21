@@ -233,6 +233,11 @@ div.modal div.modal-backdrop {
 	padding-bottom: 2%;
 	color: #2a353d !important;
 }
+
+.card-img-top{
+	height: 200px;
+
+}
 /*End Packages & Pricing*
 /*---------------------------------------------*/
 
