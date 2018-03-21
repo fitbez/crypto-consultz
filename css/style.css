@@ -4,7 +4,7 @@
     height: 10%;
 }
 
-a { 
+a {
 	font-size: 15px;
 }
 
@@ -51,14 +51,14 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    height:100vh;
+    /* height:100vh; */
     /* opacity : 0.4; */
     text-shadow: black 0.2em 0.3em 0.3em;
 }
 
 .jumbotron-fluid {
 	text-align-last: center;
-    max-height: 200%;
+    /* max-height: 200%; */
     width: 100%;
 }
 
@@ -91,7 +91,8 @@ div.modal div.modal-backdrop {
 	overflow-x: hidden !important;
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #fff; 
+	background-color: #fff;
+  margin-top: 50px;
 }
 
 .justify-content-center {
@@ -133,10 +134,76 @@ div.modal div.modal-backdrop {
 /*********************
 
 /*End About Us*/
+
+.army-chevron {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 200px;
+  height: 60px;
+  position: relative;
+  margin: 0 0 6px;
+  padding: 12px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.army-chevron::before {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 678%;
+  height: 1000%;
+  position: absolute;
+  content: "";
+  top: 40px;
+  left: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgb(55,157,224);
+  text-shadow: none;
+  -webkit-transform:    skewY(6deg);
+  transform:    skewY(6deg);
+}
+
+/* .army-chevron::after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  text-shadow: none;
+  -webkit-transform:    skewY(-6deg);
+  transform:    skewY(-6deg);
+} */
 /*---------------------------------------------*/
 
 /*Services*/
-
+.services {
+	position: relative;
+	overflow-x: hidden !important;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+  margin-top: 800px;
+}
 /*End Services*/
 /*---------------------------------------------*/
 
