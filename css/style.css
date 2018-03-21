@@ -68,6 +68,10 @@ a {
 
 .display-4 {
 	font-weight: 100 !important
+
+}
+.display-4 {
+	padding-top: 10%;
 }
 
 .lead {
