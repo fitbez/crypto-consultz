@@ -1,0 +1,21 @@
+{
+  "name": "crypto-consultz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitbez/crypto-consultz.git"
+  },
+  "keywords": [],
+  "author": "Fitsum, Eliram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitbez/crypto-consultz/issues"
+  },
+  "homepage": "https://github.com/fitbez/crypto-consultz#readme"
+}
