@@ -83,13 +83,15 @@ a {
 }
 /*End Jumbo*/
 /*---------------------------------------------*/
-/* modal */
+
+/* Modal */
 div.modal div.modal-backdrop {
     z-index: 0;
 }
+/*End Modal*/
+/*---------------------------------------------*/
+
 /*About Us*/
-/* About
-*********************/
 .about {
 	position: relative;
 	overflow-x: hidden !important;
@@ -129,10 +131,9 @@ div.modal div.modal-backdrop {
     vertical-align: right;
     border-radius: 5px;
     border: 2px solid #f4f5f8; }
-
-/*********************
-
 /*End About Us*/
+/*---------------------------------------------*/
+
 
 .army-chevron {
   -webkit-box-sizing: content-box;
