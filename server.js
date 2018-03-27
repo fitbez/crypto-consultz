@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-var bodyParser = require('bodyParser');
+var bodyParser = require('body-Parser');
 var exphbs = require('express-handlebars');
 var expressValidator = require('express-validator');
 var flash = require('connect-flash');
