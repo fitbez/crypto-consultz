@@ -31,7 +31,7 @@
 </head>
       <body>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -49,7 +49,140 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
+        <!-- Modal HTML Markup -->
+<div id="ModalLoginForm" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Login</h1>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Remember Me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">Login</button>
+
+                            <a class="btn btn-link" href="">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                </form>
+                <h1>Or Signup!</h1>
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">Username</label>
+                        <div>
+                            <input type="text" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Confirm Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password_confirmation">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+        <!-- <section class="at-login-form"> -->
+				<!-- MODAL LOGIN -->
+				<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+							</div>
+							<div class="modal-body">
+								<button class="btn-fb"> <i class="fa fa-fw fa-facebook pull-left" aria-hidden="true"></i>
+									Login with Facebook	</button> <br>
+									<button class="btn-gp"> <i class="fa fa-fw fa-google-plus pull-left" aria-hidden="true"></i>
+										Login with Google	</button> <br>
+										<div class="signup-or-separator">
+											<span class="h6 signup-or-separator--text">or</span>
+											<hr>
+										</div>
+										<form>
+											<div class="form-group">
+												<input type="email" class="form-control-form " id="exampleInputEmaillog" placeholder="Email">
+											</div>
+											<div class="form-group">
+												<input type="password" class="form-control-form " id="exampleInputPasswordpas" placeholder="Password">
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<div class="checkbox">
+														<label>
+															<input type="checkbox"> Remember me
+														</label>
+													</div>
+												</div>
+												<div class="col-md-4 col-md-offset-2">
+													<p class="frgt-pswd"   data-toggle="modal" data-dismiss="modal"  data-target="#at-reset-pswd">	Forgot Password ?</p>
+												</div>
+											</div>
+											<button type="submit" class="btn-lgin">Login</button>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<div class="row">
+											<div class="col-md-6">
+												<p class="ta-l">Don't have an account ? </p>
+											</div>
+											<div class="col-md-4 col-md-offset-2">
+												<button class="btn-gst"  data-toggle="modal"  data-dismiss="modal" data-target="#at-signup" >Sign Up </button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- MODAL LOGIN ENDS -->
       <!-- Start  Loading Section -->
       <div class="loading-overlay">
           <div class="spinner">
@@ -86,17 +219,17 @@
                     </ul>
 
                         <!-- Left side -->
-                        <!-- <a class="nav-link" href="#" >
+                        <a class="nav-link" href="#" >
                           <i class="icon ion-ios-cart" id="icon"></i></a>
-                            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" href="/users/signup">
+                            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLoginForm" href="/users/signup">
                             <i class="icon ion-person" id="icon"></i>
-                            </a> -->
-                  <li class="nav-item">
+                            </a>
+                  <!-- <li class="nav-item">
                       <a class="nav-link" href="/users/login">Login</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="/users/signup">Signup</a>
-                  </li>
+                  </li> -->
               </div>
             </nav>
             <!-- End Navbar -->
@@ -268,7 +401,6 @@
             </div>
             </div>
             <!-- End Packages & pricing -->
-
             <!-- ====== Contact ====== -->
             <div class="container-fluid" id="contact">
               <div class="row">
@@ -277,8 +409,6 @@
                 <div class="col" ><h2>Contact Us</h2></div>
                 <div class="col"></div>
             </div>
-
-
             <!-- Form -->
                 <form>
                   <div class="form-row">
@@ -292,7 +422,6 @@
                       <input type="password" class="form-control" id="inputPassword4" placeholder="example@email.com">
                     </div>
                   </div>
-
                   <!-- Subject & Telephone -->
                   <div class="form-row">
                     <div class="form-group col-md-2"></div>
@@ -305,13 +434,11 @@
                       <input type="password" class="form-control" id="inputPassword4" placeholder="+1 (XXX)-XXX-XXXX">
                     </div>
                   </div>
-
                   <!-- Comment -->
                   <div class="form-groups">
                     <label for="exampleFormControlTextarea1">Comment</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-
                   <!-- Add files -->
                   <div class="form-group">
                     <label for="exampleFormControlFile1">Example file input</label>
@@ -321,7 +448,6 @@
               </form>
             </div>
             <!-- End contact -->
-
             <!-- ====== footer start here ====== -->
             <footer>
               <div class="footer" id="footer">
@@ -332,31 +458,27 @@
                       <div class="col">
                         <ul class="social">
                             <li> <a href="#"> <i class="icon ion-social-facebook" id="icon-footer"></i> </i> </a> </li>
-                            <li> <a href="https://twitter.com/?lang=en"> <i class="icon ion-social-twitter" id="icon-footer"></i> </i> </a> </li>
-                            <li> <a href="https://www.instagram.com/coinconsultz/?hl=en"> <i class="icon ion-social-instagram" id="icon-footer"></i> </i> </a> </li>
+                            <li> <a href="https://twitter.com/?lang=en"> <i class="icon ion-social-twitter" id="icon-footer"></i> </i> </a> </li>
+                            <li> <a href="https://www.instagram.com/coinconsultz/?hl=en"> <i class="icon ion-social-instagram" id="icon-footer"></i> </i> </a> </li>
                             <li> <a href="#"> <i class="icon ion-social-youtube" id="icon-footer"></i> </i> </a> </li>
                          </ul>
                       </div>
                     </div>
-
                     <div class="row">
                       <div class="col">
                           <div class="pnone-icon">
                               <a> <i class="icon ion-ios-telephone"></i> +1 (360)-601-8800</a>
                             </div>
                         </div>
-
                       <div class="col">
                           <a> <i class="ion-android-mail"> cryptoconsultz@protonmail.com</i> </a>
                           <br>
                       </div>
-
                     <!-- future -->
                       <div class="col"></div>
                       <div class="col"></div>
                     </div>
                     </div>
-
                     <div class="row">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-10">
@@ -366,7 +488,6 @@
                               <p>CryptoConsultz, LLC does not make any guarantee or other promise as to any results that may be obtained from using this service.</p>
                               <p>No one should make any investment decision without first consulting his or her own financial advisor and conducting his or her own research and due diligence.</p>
                               <p>To the maximum extent permitted by law, CryptoConsultz, LLC disclaims any and all liability in the event any information, commentary, analysis, opinions, advice and/or recommendations prove to be inaccurate, incomplete or unreliable, or result in any investment or other losses.</p>
-
                               <p>Your use of the information provided or materials is at your own risk.</p>
                            </div>
                          </div>
@@ -380,7 +501,6 @@
                   <!--/.container-->
               </div>
               <!--/.footer-->
-
               <!--footer-bottom-->
               <div class="footer-bottom">
                   <div class="container">
@@ -396,10 +516,8 @@
                   </div> -->
               </div>
               <!--footer-bottom-->
-
           </footer>
               <!-- end footer -->
-
     <!-- ====== Script ====== -->
     <script>
     function showmodal()
@@ -417,6 +535,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 </body>
 </html>
