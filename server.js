@@ -20,7 +20,7 @@ var app =express();
 
 // Set up View Engine
 app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', exphbs({defualtLayout:'layout'}));
+app.engine('handlebars', exphbs({defualtLayout:'main'}));
 app.set('view engine','handlebars');
 
 // bodyParser Middleware
