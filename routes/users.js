@@ -3,17 +3,14 @@ var router = express.Router();
 var passport = require('passport');
 var localStrategy = require('passport-local').Strategy;
 var User = require('../models/user')
-
 // signup
 router.get('/signup', function(req, res){
   res.render('signup');
 });
-
 // Login
 router.get('/login', function(req, res){
   res.render('login');
 });
-
 // signup User
 router.post('/signup', function(req, res){
   var name = req.body.name;
@@ -21,7 +18,6 @@ router.post('/signup', function(req, res){
   var username = req.body.username;
   var password = req.body.password;
   var password2 = req.body.password2;
-
 // Validation
 req.checkBody('name', 'Name is reuired').notEmpty();
 req.checkBody('email', 'Email is reuired').notEmpty();
@@ -46,10 +42,9 @@ if(errors){
     console.log(user);
   });
   req.flash('success_msg', 'You are registered and can now login');
-  res.redirect('/');
+  res.redirect('/users/login');
   }
 });
-
 var passport = require('passport')
   , LocalStrategy = require('passport-local').Strategy;
 passport.use(new LocalStrategy(
