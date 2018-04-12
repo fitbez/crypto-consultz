@@ -40,6 +40,11 @@ a {
 	width: 70%;
 	font-weight: 200;
 }
+
+.btn-outline-success{
+	color: #f34213;
+	border-color: #f34213;
+}
 /*End Navbar*/
 /*---------------------------------------------*/
 
