@@ -41,10 +41,17 @@ a {
 	font-weight: 200;
 }
 
-.btn-outline-success{
+.btn-outline-cyan{
 	color: #f34213;
 	border-color: #f34213;
 }
+.btn-outline-cyan:hover{
+	color: #f34213;
+	border-color: #f34213;
+	background-color: #dce1e9;
+    background-image: none;
+}
+
 /*End Navbar*/
 /*---------------------------------------------*/
 
